@@ -1,0 +1,260 @@
+*{
+	vertical-align: baseline;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+/*header*/
+
+.title {
+    transition: font-size 1s;
+}
+
+.title:hover {
+	transition: 1s;
+    font-size: 35px;
+}
+
+.header {
+	transition: background-color 1s;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100%;
+    gap: 200px;
+}
+
+.navbar{
+	font-size: 25px;
+}
+
+.bar{
+	color: black;
+	margin: 0px 5px;
+}
+
+.bar2{
+    text-decoration: none;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+	transition: 1s;
+	padding: 5px;
+}
+
+.bar2:hover{
+	background: white;
+	color: black;
+	transition: 1s;
+}
+
+/*fin de header*/
+
+/*section 1*/
+.section-I{
+    background: url(https://wallpapercave.com/wp/wp1904056.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover
+    height: 750px;
+    width: auto;
+}
+
+.img-1{
+    background-color: rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 750px;
+    width: 100%;
+}
+
+.img-1 h2{
+	font-size: 60px;
+}
+
+.img-1 h3{
+	font-size: 20px;
+}
+
+.vender{
+    text-decoration: none;
+	background: black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: white;
+    font-size: 20px;
+    transition: 1s;
+    padding: 10px;
+}
+
+.vender:hover{
+	background: green;
+	color: black;
+	transition: 1s;
+}
+/*fin de sention 1*/
+
+/*section 2*/
+
+.section-II{
+    display: flex;
+    background: #2e2e2e;
+    height: 700px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.img-II{
+    border-radius: 10px;
+    background: url(https://cdn-media-2.freecodecamp.org/w1280/5f9c9bb1740569d1a4ca2d56.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 500px;
+    transition: 3s;
+}
+
+.contenedor-II{
+	gap: 20px;
+    display: flex;
+    color: white;
+    height: 500px;
+    width: 500px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-II h2{
+	font-size: 40px;
+}
+
+.contenedor-II p{
+	font-size: 20px;
+	text-align: justify;
+}
+
+.contenedor-II a{
+    text-decoration: none;
+    padding: 10px;
+    background: white;
+    width: 20%;
+    border-radius: 10px;
+    color: black;
+    transition: 1s;
+}
+
+.contenedor-II a:hover{
+	transition: 1s;
+	background: black;
+	color: white;
+}
+
+/*fin de sention 2*/
+
+/*section 3*/
+.section-III{
+	text-align: center;
+}
+
+.section-III h3{
+	font-size: 35px;
+}
+
+.contenedor-grid {  
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr ;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"img1 img2 img3"
+	"p1 p2 p3";
+	justify-items: center;
+}
+
+
+.img1 {
+ grid-area: img1; 
+ background: url(https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHw5fHxTb2Z0d2FyZSUyMERldmVsb3BtZW50fGVufDB8fHx8MTY5MTgzMDI3NHww&ixlib=rb-4.0.3&q=80&w=1080);
+}
+
+.img2 { 
+	grid-area: img2; 
+	background: url(https://images.unsplash.com/photo-1605379399642-870262d3d051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwyfHxTb2Z0d2FyZSUyMERldmVsb3BtZW50fGVufDB8fHx8MTY5MTgzMDI3NHww&ixlib=rb-4.0.3&q=80&w=1080);
+}
+
+.img3 { 
+	grid-area: img3; 
+	background: url(https://images.unsplash.com/photo-1547658719-da2b51169166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyNjI5NjF8MHwxfHNlYXJjaHwxMXx8U29mdHdhcmUlMjBEZXZlbG9wbWVudHxlbnwwfHx8fDE2OTE4MzAyNzR8MA&ixlib=rb-4.0.3&q=80&w=1080);
+}
+
+.grid-img{
+    margin: 15px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+}
+
+.p1 { 
+	grid-area: p1; 
+}
+
+
+
+.p2 { 
+	grid-area: p2; 
+}
+
+.p3 { 
+	grid-area: p3; 
+}
+
+.ph{
+	height: 250px;
+    width: 400px;
+}
+
+.ph h2{
+	font-size: 30px;
+}
+
+.ph p{
+	margin: 15px;
+}
+
+.contenedor-grid a{
+	padding: 10px;
+	text-decoration: none;
+	background: black;
+	color: white;
+	transition: 1s;
+	border-radius: 10px;
+}
+
+.contenedor-grid a:hover{
+	transition: 1s;
+	color: black;
+	background: white;
+}
+
+.section-III-img{
+	background: url(https://static.vecteezy.com/system/resources/previews/009/392/530/non_2x/the-web-pages-are-on-the-laptop-screen-and-the-mobile-phone-is-lying-modern-technological-background-isometry-conceptual-banner-of-web-technologies-vector.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover
+    height: 750px;
+    width: auto;
+}
+/*fin de sention 3*/
